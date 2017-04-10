@@ -3,16 +3,20 @@ layout: default
 ---
 <!DOCTYPE html>
 <html>
-  <body>
-    <h1>Howdy Y'all</h1>
-    <ul>
-      {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        {{ post.excerpt }}
-      </li>
-      {% endfor %}
-    </ul>
-  </body>
+	<head>
+		<link rel="stylesheet" href="/css/main.css">
+	</head>
+	<body>
+		{% include header.html %}
+		<h1>Howdy Y'all</h1>
+		<ul>
+			{% for post in site.posts %}
+			<li>
+				<a href="{{ post.url }}">{{ post.title }}</a>
+				{{ post.excerpt }}
+			</li>
+			{% endfor %}
+		</ul>
+	</body>
 </html>
 

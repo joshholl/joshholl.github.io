@@ -1,0 +1,10 @@
+.social-media-bar {
+	i:hover {
+		color: $primary3;
+
+		text-shadow: 1px 1px 3px rgba(255,255,255, .25);
+	}
+
+	height: 4rem;
+	border-bottom: 1px solid black;	
+}

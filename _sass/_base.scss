@@ -1,0 +1,10 @@
+$primary: rgba(108, 37, 111, 1);
+$primary2: rgba(164, 111, 166, 1);
+$primary3: rgba(136, 70, 138, 1);
+$primary4: rgba(81, 14, 83, 1);
+$primary5: rgba(54,0,55,1);
+
+@import "header";
+body {
+	background-color: $primary;
+}
