@@ -1,10 +1,66 @@
 $primary: rgba(108, 37, 111, 1);
 $primary2: rgba(164, 111, 166, 1);
 $primary3: rgba(136, 70, 138, 1);
-$primary4: rgba(81, 14, 83, 1);
+$primary4: rgba(210, 150, 255, 1);
 $primary5: rgba(54,0,55,1);
-
+$primary6: rgb(20,0,22);
 @import "header";
 body {
-	background-color: $primary;
+	background-color: $primary5;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 0px;
+	margin: 0px;
+	color: white;
 }
+h1, h2, h3, h4, h5 { color: $primary; }
+
+
+aside#left {
+	background-color: $primary6;
+	width: 240px;
+	max-width: 240px;
+	height: 100%;
+	min-height: 550px;
+	top: 0px;
+	left: 0px;
+	float: top;
+	position: fixed;
+	font-size: 2rem;
+
+
+
+	span {
+		padding: 20px;
+		width: auto;
+		display: block;
+	}
+
+	img {
+		width: 200px;
+		height: auto;
+		border: 1px solid $primary4;
+	}
+	
+	.name {
+
+		color: $primary3;
+		text-align: center;
+	}
+
+	.icons {
+		letter-spacing: .5rem;
+		i.fa {
+			color: $primary3;
+			&:hover {
+				color: $primary2;
+				text-shadow: 0 0 10px $primary4;
+			}
+		}
+	}
+}
+main > section {
+margin-left: 240px;
+padding: 20px;
+
+}
+
