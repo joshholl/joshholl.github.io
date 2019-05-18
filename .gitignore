@@ -1,8 +1,0 @@
-.git/
-_site/
-.jekyll-metadata
-.sass-cache
-.bundle
-public
-node_modules
-.cache
