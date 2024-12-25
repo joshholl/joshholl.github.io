@@ -1,0 +1,6 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: My Notebook
+theme: hugo-theme-relearn
+params:
+  themeVariant: neon
