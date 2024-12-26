@@ -1,4 +1,6 @@
 ---
 share: "true"
-area: Data Science
+area:
+  - Data Science
+title: Deep Learning
 ---
