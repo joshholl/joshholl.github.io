@@ -1,6 +1,6 @@
-baseURL: https://example.org/
+baseURL: https://www.joshholl.com
 languageCode: en-us
-title: My Notebook
+title: Josh's Notes
 theme: hugo-theme-relearn
 params:
   themeVariant: neon
